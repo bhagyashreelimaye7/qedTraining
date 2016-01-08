@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
+
 <body>
 <form  method="post" action="qedRegister.php">
 Firstname:
@@ -14,15 +12,15 @@ Lastname:
 </br>
 </br>
 email:
-<input type="text" name="email"> 
+<input type="email" name="email"> 
 </br>
 </br>
 <select name="role">
-  <option value="developer">developer</option>
-  <option value="sdesigner">designer</option>
-  <option value="architect">architect</option>
-  <option value="tester">tester</option>
-  <option value="HR">tHR</option>
+  <option value="1">Developer</option>
+  <option value="2">Designer</option>
+  <option value="3">Architect</option>
+  <option value="4">Tester</option>
+  <option value="5">HR</option>
 </select>
 </br>
 password:
@@ -31,7 +29,7 @@ password:
 confirm password:
 <input type="password" name="pass2">
 </br>
-<button type="button" > Register </button>
+<button type="Submit" > Register </button>
 
 
 </form>

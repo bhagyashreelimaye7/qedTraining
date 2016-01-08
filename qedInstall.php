@@ -10,7 +10,7 @@ if($result)
 	echo"done Role";
 }
 else
-	die(mysqli_error());
+	die(mysqli_error($link));
 
 
 
@@ -22,6 +22,53 @@ if($result)
 	echo"done Users";
 }
 else
-	die(mysqli_error());
+	die(mysqli_error($link));
 
+
+
+$query="insert into ".$prefix."_Role values('1','developer')";
+echo"<br>";
+$result=mysqli_query($link,$query);
+if($result)
+{
+	echo"done ";
+}
+else
+	die(mysqli_error($link));
+$query="insert into ".$prefix."_Role values('2','designer')";
+echo"<br>";
+$result=mysqli_query($link,$query);
+if($result)
+{
+	echo"done";
+}
+else
+	die(mysqli_error($link));
+$query="insert into ".$prefix."_Role values('3','architect')";
+echo"<br>";
+$result=mysqli_query($link,$query);
+if($result)
+{
+	echo"done ";
+}
+else
+	die(mysqli_error($link));
+$query="insert into ".$prefix."_Role values('4','tester')";
+echo"<br>";
+$result=mysqli_query($link,$query);
+if($result)
+{
+	echo"done";
+}
+else
+	die(mysqli_error($link));
+$query="insert into ".$prefix."_Role values('5','hr')";
+echo"<br>";
+$result=mysqli_query($link,$query);
+if($result)
+{
+	echo"done";
+}
+else
+	die(mysqli_error($link));
 ?>
