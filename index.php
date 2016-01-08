@@ -1,15 +1,17 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>
 		
 	</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
 </head>
-<body bgcolor="">
-<H1 color "red">qed42 trainning</H1>
+<body bgcolor=""><div class="k">
+<H1 >qed42 training</H1>
 <br></br>
-<button type="login" ="www.google.com"> login </button>
+<input type="submit" onclick="loginform.php" value="login "/> 
 &nbsp &nbsp &nbsp
-<button type="register" action="register.php">register</button>
+<input type="submit" onclick="registerform.php" value="register"/></div>
 </body>
 </html>
