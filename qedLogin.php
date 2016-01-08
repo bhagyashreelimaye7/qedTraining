@@ -19,7 +19,6 @@
 			{
 				session_start();
 				$_SESSION['id'] = $row[0];
-				//echo $row[1];
 				header("Location:qedHome.php");
 				
 			}	
