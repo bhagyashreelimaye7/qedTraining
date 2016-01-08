@@ -22,7 +22,7 @@ email:
   <option value="2">designer</option>
   <option value="3">architect</option>
   <option value="4">tester</option>
-  <option value="5">tHR</option>
+  <option value="5">HR</option>
 </select>
 </br>
 password:
