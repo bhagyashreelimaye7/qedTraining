@@ -12,7 +12,7 @@
 	
 	
 		
-	<form method="post" action="qedHome.php" >
+	<form method="post" action="qedRegister.php" >
 		<table align=center cellpadding=10 cellspacing=10 bgcolor="#eee">
 
 			<tr>
