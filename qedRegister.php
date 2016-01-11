@@ -41,7 +41,7 @@
 			if(!$result)
 				die(mysqli_error($link));
 			else
-				header("Location:qedHome.php");
+				header("Location:qedLoginForm.php");
 			
 		}
 		
