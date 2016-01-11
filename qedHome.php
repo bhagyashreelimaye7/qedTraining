@@ -1,5 +1,7 @@
 <html>
+<link rel="stylesheet" type="text/css" href="style.css" />
 <body>
+
 
 <?php
 	require("qedConnectDb.php");
