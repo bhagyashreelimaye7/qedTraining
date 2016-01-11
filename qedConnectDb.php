@@ -12,4 +12,6 @@ if(!mysqli_select_db($link,$dbname))
 {
 	die(mysqli_connect_error());
 }
+else
+	//echo"successfully connected";
 ?>
