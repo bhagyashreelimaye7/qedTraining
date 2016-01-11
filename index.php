@@ -7,13 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	
 </head>
-<form>
+
 <body bgcolor=""><div class="k">
-<H1 >qed42 training</H1>
+
+<div id="page">
+		<div id="logo">
+			<h1><a bgcolor="black"id="logoLink">QED42 TRAINING</a></h1>
+		</div>
 <br></br>
-<input type="submit" onclick="qedRegister.php" value="login "/> 
-&nbsp &nbsp &nbsp
-<input type="submit" onclick="registerform.php" value="register"/></div>
-</form>
+<div id="nav">
+			<ul>
+				<li><a href="qedLoginForm.php">Login</a></li>
+				<li><a href="qedRregisterForm.php">Register</a></li>
+				
+			</ul>	
+		</div>
 </body>
 </html>

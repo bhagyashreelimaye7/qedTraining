@@ -1,3 +1,36 @@
 .k{
-	text-align: center 
+	text-align: center cellpadding=10 cellspacing=10
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+			#page{ margin: 30px; }
+
+/* or on different lines like below */
+#logo{
+	width: 45%;
+	margin-top: 40px;
+	font-family: georgia;
+	display: inline-block;
+}
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
 }
