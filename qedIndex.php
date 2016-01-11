@@ -8,7 +8,11 @@
 	
 </head>
 
-<body bgcolor=""><div class="k">
+<body >
+<div align="center">
+<p><img src="image.png" width="100" height="100" align="center"> </p>
+</div>
+<div class="k">
 
 <div id="page">
 		<div id="logo">
