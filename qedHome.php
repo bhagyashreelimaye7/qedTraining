@@ -1,5 +1,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style1.css" />
+
 <body>
 <p><img src="image.png" width="100" height="100" align="center"> </p>
 <h1 align="center">QED42 Training</h1> 
@@ -20,12 +22,16 @@
 	
 	<h2 align=right > Hello <?php echo $row[0] ?>&nbsp&nbsp&nbsp&nbsp</h2>
 	
+	
+
+	
 
 	<?php
-
+        
 		echo "<hr><h2 align=center>Employee List</h2><hr>";
 
-		echo"<table align=center border=5 cellpadding=5 cellspacing=0>
+
+		echo"<table align=center border=1 cellpadding=10 cellspacing=0>
 
 				<tr>
 					<th><a href='qedHome.php?param=fname'>First Name</a></th>
@@ -68,9 +74,11 @@
 
 
 		$result=mysqli_query($link,$query);
+		
 		while($row=mysqli_fetch_row($result))
 		{	  
 			//echo $row[0];
+			
 				echo "<tr>";
 					echo "<td style='text-align: center;'>$row[0]</td>";
 					echo "<td style='text-align: center;'>$row[1]</td>";
@@ -81,8 +89,6 @@
 	echo"</table>";
 	
 	?>
-	<hr>
-	<h2 align=center ><a href="qedLogout.php">Logout</a></h2>
-	<hr>
+	<h2 align=center><a href="qedLogout.php">Logout</a></h2>
 </body>
 </html>
