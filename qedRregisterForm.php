@@ -12,7 +12,7 @@
 	
 	
 		
-	<form method="post" action="qedHome.php" >
+	<form method="post" action="qedLoginForm.php" >
 		<table align=center cellpadding=10 cellspacing=10 bgcolor="#eee">
 
 			<tr>
@@ -27,7 +27,8 @@
 				<td>Email</td>
 				<td><input type="email" name="email"> </td>
 			</tr>
-			<tr><td>Role</td>
+			<tr>
+			    <td>Role</td>
 				<td>
 					<select name="role">
 					  <option value="1">developer</option>
@@ -40,15 +41,18 @@
 			</tr>
 			<tr>
 				<td>
-					Password:</td><td>
-<input type="password" name="pass1">
+					Password:</td>
+					<td><input type="password" name="pass1">
 				</td>
 			</tr>
-			<tr><td>
+			<tr>
+			<td>
 				Confirm Password:
-			</td><td>
+			</td>
+			<td>
 				<input type="password" name="pass2">
-			</td></tr>
+			</td>
+			</tr>
 			<tr>
 				<td colspan="2" align="center"><input type="submit" value ="Register"></td>
 			</tr>
