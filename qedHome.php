@@ -1,6 +1,8 @@
 <html>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <body>
+<p><img src="image.png" width="100" height="100" align="center"> </p>
+<h1 align="center">QED42 Training</h1> 
 
 
 <?php
@@ -15,9 +17,9 @@
 	$row=mysqli_fetch_row($result);
 	//echo $row[0];
 ?>
-	<hr>
-	<h2 align=center > Hello <?php echo $row[0] ?> </h2>
-	<hr>
+	
+	<h2 align=right > Hello <?php echo $row[0] ?>&nbsp&nbsp&nbsp&nbsp</h2>
+	
 
 	<?php
 
