@@ -3,7 +3,7 @@ $host="localhost";
 
 
 $user="root";
-$pass="prashant";
+$pass="Password";
 
 $dbname="qedInfo";
 
