@@ -1,9 +1,10 @@
 <html>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <body>
-
+<p><img src="image.png" width="100" height="100" align="center"> </p>
+<h1 align=center> QED42 Training</h1>
 	<hr>
-	<h2 align=center > Login to Your Account</h2>
+	<h3 align=center > Login to Your Account</h3>
 	<hr>
 	
 	
