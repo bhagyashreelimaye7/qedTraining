@@ -25,7 +25,7 @@
 
 		echo "<hr><h2 align=center>Employee List</h2><hr>";
 
-		echo"<table align=center border=5 cellpadding=5 cellspacing=5>
+		echo"<table align=center border=5 cellpadding=5 cellspacing=0>
 
 				<tr>
 					<th><a href='qedHome.php?param=fname'>First Name</a></th>
