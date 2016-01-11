@@ -6,8 +6,10 @@
 </style>
 <body >
 
+	<p><img src="image.png" width="100" height="100" align="center"> </p>
+<h1 align=center> QED42 Training</h1>
 	<hr>
-	<h2 align=center > Welcome to QED42 Training</h2>
+	<h3 align=center > Register</h3>
 	<hr>
 	
 	
